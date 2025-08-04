@@ -1,0 +1,32 @@
+ONLY provide a number (0-8) in response. Categorize the following app review text by assigning the most fitting category/categories out of the following nine categories. 
+If the text contains elements from multiple categories, provide the categories separated by ;
+
+(0)	User Opinion without specific reports, issues, suggestions - i.e., review only about good/bad perception of the app but nothing else
+(1)	Reports of bugs, errors, or bad quality issues - i.e., something does not work in the app or is of bad quality
+(2)	Issues of the app's monetization model - i.e., complaints or issues of how the app monetizes content
+(3)	Suggestions for new features or content or revival of removed features
+(4)	Customer support issues - i.e., problems or complaints regarding customer support
+(5)	Performance issues - i.e., the app needs to much space, is to slow or similar
+(6)	Security concerns - i.e., user is concerned about their data or privacy
+(7)	Ethical concerns - i.e., user is concerned about practices in the app, fairness, discrimination
+(8)	Community related issues - user asks openly for help (no feedback at customer support)
+
+EXAMPLES:
+Review texts: ‘I love this game’, ‘clear, friendly, effective’, ‘horrible app; if I could give these creators 0 stars, I would’
+Response: 0
+Review texts: ‘I’m getting error messages when trying to use the app’, ‘makes my phone incredibly hot, then the game crashes’, ‘I am unable to access the app’
+Response: 1
+Review texts: ‘the items should be at a lower price’, ‘the apps are unbelievably disturbing’, ‘the app hides the ability to cancel the subscription’
+Response: 2
+Review texts: ‘add home screen widgets’, ‘please support on iPad’, ‘create stories’
+Response: 3
+Review texts: ‘there is no solution even though I reported the issue already’, ‘nobody replies from support’, ‘I cannot contact the support’
+Response: 4
+Review texts: ‘the app drains 50% battery overnight’, ‘updating the app takes too long’, ‘the game lagged a bit’
+Response: 5
+Review texts: ‘do not trust anything about this app, it’s a scam’, ‘they are selling our privacy’, ‘app reads and saves photos’
+Response: 6
+Review texts: ‘the community tends to be very toxic towards each other’, ‘the app is debased by its selective censorship’, ‘this app clearly promotes sex trafficking’
+Response: 7
+Review texts: ‘how can I change the language’, hey guys, I have no idea what the color paints are for’, ‘please unfreeze my account and support me’
+Response: 8

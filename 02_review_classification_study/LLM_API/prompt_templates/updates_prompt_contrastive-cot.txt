@@ -1,0 +1,32 @@
+ONLY provide a number (0-8) in response. Categorize the following app review text by assigning the most fitting category/categories out of the following nine categories. 
+If the text contains elements from multiple categories, provide the categories separated by ;
+
+(0)	User Opinion without specific reports, issues, suggestions - i.e., review only about good/bad perception of the app but nothing else
+(1)	Reports of bugs, errors, or bad quality issues - i.e., something does not work in the app or is of bad quality
+(2)	Issues of the app's monetization model - i.e., complaints or issues of how the app monetizes content
+(3)	Suggestions for new features or content or revival of removed features
+(4)	Customer support issues - i.e., problems or complaints regarding customer support
+(5)	Performance issues - i.e., the app needs to much space, is to slow or similar
+(6)	Security concerns - i.e., user is concerned about their data or privacy
+(7)	Ethical concerns - i.e., user is concerned about practices in the app, fairness, discrimination
+(8)	Community related issues - user asks openly for help (no feedback at customer support)
+
+ANALYZE STEP BY STEP:
+1.	Read the app review text carefully
+2.	Identify the main purpose of the review 
+3.	Check the different categories starting from 0 to 8 and determine which category/categories applies/apply best
+4.	Provide the number(s) of the category/categories as response
+
+CORRECT EXAMPLE:
+Review text: ‘Trying to get an answer about anonymity. Can a winner stay anonymous? They have my name and address. Emailed for an answer- no response. Reading of update text ‘game runs faster and more levels have been added’
+1.	Reading of update text ‘Trying to get an answer about anonymity. Can a winner stay anonymous? They have my name and address. Emailed for an answer- no response.’
+2.	Main purpose of ‘trying to get an answer’ and ‘Emailed for an answer - no response’ is customer support issue and purpose of ‘anonymity’ and ‘They have my name and address’ is security concerns
+3.	Customer support issue aligns with category 4, security concerns aligns with category 6
+4.	4;6 are provided as response
+
+WRONG EXAMPLE:
+Review text: ‘Trying to get an answer about anonymity. Can a winner stay anonymous? They have my name and address. Emailed for an answer- no response. Reading of update text ‘game runs faster and more levels have been added’
+1.	Reading of update text ‘Trying to get an answer about anonymity. Can a winner stay anonymous? They have my name and address. Emailed for an answer- no response.’
+2.	Main purpose of ‘trying to get an answer’ and ‘Emailed for an answer - no response’ is security concerns and purpose of ‘anonymity’ and ‘They have my name and address’ is ethical concerns
+3.	Security concerns aligns with category 4, ethical concerns aligns with category 6
+4.	1;7 are provided as response
