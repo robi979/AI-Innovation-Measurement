@@ -1,0 +1,32 @@
+ONLY provide the category number (1-7) in response. Determine the category for the following app update text.
+If multiple categories seem applicable, always choose the lowest category number (1<2<3<4<5<6<7):
+
+(1) Novel features - Introducing or enhancing significant functionalities that modify user experience
+(2) Content extensions – Adding or expanding curated or user-facing content
+(3) Platform and device support – Enabling compatibility with new OS versions, development kits, device types, or hardware features
+(4) Specific fixes of bugs - Addressing distinct known issues
+(5) Privacy & Security - Strengthening user data protection, permissions, or security protocols
+(6) General Improvements – Tweaks addressing undisclosed bug fixes,  performance improvements, minor changes, or UI/UX polish
+(7) Marketing & Branding – Changes purely about promotional or visual branding assets
+
+EXAMPLES:
+Updates: ‘new style’, ‘new features’, ‘new interface’
+Response: 1
+
+Updates: ‘optimized performance’, ‘new levels’, ‘new stage added’
+Response: 2
+
+Updates: ‘updated for iOS 9’, ‘resolves iOS 9 issues’, ‘adapt to iOS 12 system’
+Response: 3
+
+Updates: ‘fix for push-messaging’, ‘fixed game freeze bug’, ‘fixed a crash that could occur when starting the game’
+Response: 4
+
+Updates: ‘security updates’, ‘terms of use updated’, ‘added prompt to ask permission for App Tracking Transparency’
+Response: 5
+
+Updates: ‘bug fixes’, ‘stability improvements’, ‘improved feeds’
+Response: 6
+
+Updates: ‘new app icon introduced’, ‘screenshots for App Store added’, ‘Spring has sprung and it's time to get floral! Collect as many blossoms as you can; the more you collect, the bigger the reward!’
+Response: 7

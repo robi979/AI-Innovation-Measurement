@@ -1,0 +1,33 @@
+ONLY provide the category number (1-7) in response. Determine the category for the following app update text.
+If multiple categories seem applicable, always choose the lowest category number (1<2<3<4<5<6<7):
+
+(1) Novel features - Introducing or enhancing significant functionalities that modify user experience
+(2) Content extensions – Adding or expanding curated or user-facing content
+(3) Platform and device support – Enabling compatibility with new OS versions, development kits, device types, or hardware features
+(4) Specific fixes of bugs - Addressing distinct known issues
+(5) Privacy & Security - Strengthening user data protection, permissions, or security protocols
+(6) General Improvements – Tweaks addressing undisclosed bug fixes,  performance improvements, minor changes, or UI/UX polish
+(7) Marketing & Branding – Changes purely about promotional or visual branding assets
+
+ANALYZE STEP BY STEP:
+1.	Read the app update text carefully
+2.	Identify the main purpose of the update 
+3.	Check the different categories starting from 1 to 6 and determine which category applies best
+4.	If multiple categories apply, choose the category with the lowest number
+5.	Provide the number of the category as response
+
+CORRECT EXAMPLE :
+Update text: ‘game runs faster and more levels have been added’
+1.	Reading of update text ‘game runs faster and more levels have been added’
+2.	Main purpose of ‘game runs faster’ is performance improvement and purpose of ‘more levels have been added’ is extensions of app content
+3.	Performance improvement aligns with category 6, extensions of app content aligns with category 2
+4.	Lower category number 2 is chosen
+5.	2 is provided as response
+
+WRONG EXAMPLE
+Update text: ‘game runs faster and more levels have been added’
+1.	Reading of update text ‘game runs faster and more levels have been added’
+2.	Main purpose of ‘game runs faster’ is extensions/additions of app content and purpose of ‘more levels have been added’ is privacy & security
+3.	Extensions/additions of app content aligns with category 6, privacy and security aligns with category 2
+4.	Lower category number 2 is chosen
+5.	1 is provided as response
