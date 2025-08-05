@@ -129,8 +129,9 @@ AI_Measurement/
 @misc{nowak2025ai,
   author       = {Nowak, Robin and Figge, Patrick and Haeussler, Carolin},
   title        = {AI-Based Measurement of Innovation: Mapping Expert Insight into Large Language Model Applications},
-  note         = {Working paper},
-  year         = {2025}
+  year         = {2025},
+  doi          = {10.48550/arXiv.2508.02430},
+  url          = {https://arxiv.org/abs/2508.02430}
 }
 ```
 
