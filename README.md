@@ -75,8 +75,8 @@ AI_Measurement/
 
 1. **Clone the repo**
     ```bash
-    git clone https://github.com/robi979/AI-Innovation-Measurement_Working.git
-    cd AI-Innovation-Measurement_Working
+    git clone https://github.com/robi979/AI-Innovation-Measurement.git
+    cd AI-Innovation-Measurement
     ```
 2. **Download repo BigData files (~14 GB; folder structure matches repo)**
    ```powershell
